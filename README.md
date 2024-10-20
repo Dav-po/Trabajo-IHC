@@ -1,2 +1,2 @@
 # Trabajo-IHC
- ENLACE DE LA Página Web: [Uploading index.html…]() 
+ ENLACE DE LA Página Web: file:///C:/IHC/index.html 
