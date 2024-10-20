@@ -1,0 +1,98 @@
+/* Estilos generales */
+body {
+    margin: 0;
+    font-family: 'Inter', sans-serif;
+    background-color: #ECECEC;
+    width: 100%;
+}
+
+/* Encabezado */
+.header {
+    background-color: #FFFFFF;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+}
+
+.logo {
+    width: 100px;
+}
+
+.nav-list {
+    display: flex;
+    list-style: none;
+    padding: 0;
+}
+
+.nav-link {
+    margin: 0 10px;
+    font-size: 24px;
+    text-align: center;
+    color: #18959B;
+    text-decoration: none;
+}
+
+.nav-link:hover {
+    text-decoration: underline;
+}
+
+/* Contenido principal */
+.main-content {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 50px;
+}
+
+.text h2 {
+    font-size: 36px;
+    color: #18959B;
+}
+
+.text p {
+    font-size: 20px;
+    color: #333333;
+}
+
+.main-image {
+    width: 400px;
+    border-radius: 6px;
+}
+
+/* Footer */
+.footer {
+    background-color: #ACACAC;
+    color: #FFFFFF;
+    padding: 20px 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer-contact, .footer-social {
+    display: flex;
+    flex-direction: column;
+}
+
+.footer-contact p {
+    margin: 5px 0;
+}
+
+.social-link {
+    margin: 5px 0;
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+.social-link:hover {
+    text-decoration: underline;
+}
+
+/* Imagenes de logos y redes sociales */
+.footer-social img {
+    width: 44px;
+    height: auto;
+    margin-right: 10px;
+}
